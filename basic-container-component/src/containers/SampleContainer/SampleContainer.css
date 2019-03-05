@@ -1,0 +1,38 @@
+.SampleContainer {
+  background: coral;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+
+.SampleContainer h1 {
+  text-align: center;
+  border-radius: 15px;
+  position: absolute;
+  transition: all 1s;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  width: 100%;
+}
+
+.SampleContainer:hover h1 {
+  color: white;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(10deg) scale(1.4);
+}
+
+.SampleContainer:hover .Component {
+  top: 50%;
+  color: white;
+}
+
+.btn {
+  padding: 20px;
+  background: black;
+}
